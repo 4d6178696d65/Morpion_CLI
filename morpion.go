@@ -37,6 +37,7 @@ func run() {
 			os.Exit(0) //exit the game
 		} else if loose() {
 			fmt.Println("Match nul !")
+			os.Exit(0)
 		}
 		p1 = !p1 //change player
 	}
